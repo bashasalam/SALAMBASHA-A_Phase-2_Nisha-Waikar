@@ -1,0 +1,55 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Controller</servlet-name>
+  	<display-name>Controller</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.Controller</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminController</servlet-name>
+  	<display-name>AdminController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.AdminController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>PasswordController</servlet-name>
+  	<display-name>PasswordController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.PasswordController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AirWaysController</servlet-name>
+  	<display-name>AirWaysController</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.AirWaysController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>Controller</servlet-name>
+  	<url-pattern>/</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminController</servlet-name>
+  	<url-pattern>/AdminController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminController</servlet-name>
+  	<url-pattern>/adminpage</url-pattern>
+   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>PasswordController</servlet-name>
+  	<url-pattern>/PasswordController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AirWaysController</servlet-name>
+  	<url-pattern>/AirWaysController</url-pattern>
+  </servlet-mapping>
+  
+
+
+</web-app>
