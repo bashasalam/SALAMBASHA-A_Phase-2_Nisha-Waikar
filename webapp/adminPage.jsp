@@ -72,16 +72,27 @@
     </head>
     <body>
     
-    <ul>
+    <%-- <ul>
       <li style="float: left;"  ><h3><a  href="adminPage.jsp">FLYAWAY</a></h3></li>
       <li style="float:right"><a href="index.jsp"><button class="btn btn-danger">Logout</button></a></li>
       <li style="float:right"><a href="changePassword.jsp"><button class="btn btn-warning">Change Password</button></a></li>
       <li style="float:right"><a href="AirWaysController"><button class="btn btn-primary">AirWays</button></a></li>
       <li style="float:right"><a href="adminPage.jsp?places=countries"><button class="btn btn-primary">Country List</button></a></li>
-     <li style="float:right"><a href="adminPage.jsp?flightList=listofflights"><button class="btn btn-primary">Flight List</button></a></li>
+     <li style="float:right"><a href="FlightListController"><button class="btn btn-primary">Flight List</button></a></li>
       <li style="float:right"><a href="adminPage.jsp?flighthandling=handlingflight"><button class="btn btn-primary">Add/Cancel Flight</button></a></li>
 
-    </ul>
+    </ul> --%>
+       <ul>
+      <li style="float: left;"  ><h3><a  href="adminPage.jsp">FLYAWAY</a></h3></li>
+      <li style="float:right"><a href="index.jsp"><button class="btn btn-danger">Logout</button></a></li>
+      <li style="float:right"><a href="changePassword.jsp"><button class="btn btn-warning">Change Password</button></a></li>
+      <li style="float:right"><a href="airways"><button class="btn btn-primary">airways</button></a></li>
+      <li style="float:right"><a href="airlines"><button class="btn btn-primary">airlines</button></a></li> 
+      <%-- <li style="float:right"><a href="adminPage.jsp?places=countries"><button class="btn btn-primary">Country List</button></a></li> --%>
+     <li style="float:right"><form action="flightList"><button type="submit" class="btn btn-primary">Flight Schedule</button></form></li>
+      <%-- <li style="float:right"><a href="adminPage.jsp?flighthandling=handlingflight"><button class="btn btn-primary">Add/Cancel Flight</button></a></li> --%>
+
+     </ul>
 
 
 
@@ -119,16 +130,13 @@
 		 
 		  
 	  
-	  }
-	  }
-	  %>
+	  } %>
+
 <div>
   <h1> Alhamdhulillah this is airways page</h1>
 </div>
-
-
-<% 
-}  %>
+<%	  }
+	  %>
 
 <%
 
@@ -162,9 +170,8 @@
   <h1> Alhamdhulillah this is flightList page</h1>
 </div>
 
+<%} %>
 
-<% 
-} %>
 
 
 

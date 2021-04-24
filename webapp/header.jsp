@@ -15,9 +15,21 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link href=”bootstrap/css/bootstrap.min.css” rel=”stylesheet” type=”text/css” />
-<script type=”text/javascript” src=”bootstrap/js/bootstrap.min.js”></script>
+
+
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 <style>
     ul {
@@ -47,16 +59,15 @@
       background-color: #111;
     }
     #background{
-        background-image: url("./resources/images/mosque.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-    position: fixed;
-    width: 100%;
-    max-width: 400px !important;
+
+    width: 80%;
+    height:80%;
+ 
     
-        margin-left: 700px;
-    margin-top: 200px;
+        margin-left: 40%;
+        margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom:5%;
     
     word-break: break-word;
 

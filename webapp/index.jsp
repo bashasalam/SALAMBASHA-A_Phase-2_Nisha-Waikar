@@ -9,7 +9,7 @@
 <a href="admin.jsp">
     <button class="btn btn-primary"> Admin </button></a>
 
-<a href="flightDetails.jsp">
+<a href="searchFlight.jsp">
     <button class="btn btn-success"> Book Tickets</button></a>
 
 
